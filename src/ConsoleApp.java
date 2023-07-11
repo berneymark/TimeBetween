@@ -3,10 +3,26 @@ import java.util.Scanner;
 public class ConsoleApp {
     public static Scanner scanner;
 
+    public Boolean is24;
+
     public ConsoleApp() {
         scanner = new Scanner(System.in);
+        requestClockType();
         requestStartTime();
         requestEndTime();
+    }
+
+    public void requestClockType() {
+        System.out.print("Do you want 12H or 24H? ");
+        String clockType = scanner.nextLine();
+
+        is24 = is24H(clockType);
+    }
+
+    public boolean is24H(String input) {
+        if (input.equals("12H"))
+            return false;
+        else return input.equals("24H");
     }
 
     public void requestStartTime() {
