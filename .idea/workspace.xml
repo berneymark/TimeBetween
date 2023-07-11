@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05fb2ee1-07c0-4945-ae1d-aa8a55fbf28a" name="Changes" comment="reset workspace">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="05fb2ee1-07c0-4945-ae1d-aa8a55fbf28a" name="Changes" comment="remove default comments">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689036839819</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="request and store start time">
+      <option name="closed" value="true" />
+      <created>1689037151977</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689037151977</updated>
+    </task>
+    <task id="LOCAL-00004" summary="remove default comments">
+      <option name="closed" value="true" />
+      <created>1689037172198</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689037172198</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +101,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="reset workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="reset workspace" />
+    <MESSAGE value="request and store start time" />
+    <MESSAGE value="remove default comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove default comments" />
   </component>
 </project>
