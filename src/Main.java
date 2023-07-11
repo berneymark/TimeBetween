@@ -8,13 +8,11 @@ public class Main {
         requestStartTime();
     }
 
-    public String requestStartTime() {
+    public void requestStartTime() {
         System.out.print("What time did you start work? ");
         String startTime = scanner.nextLine();
 
         System.out.println("Start time is: " + startTime);
-
-        return startTime;
     }
 
     public static void main(String[] args) {
