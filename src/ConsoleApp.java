@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Main {
+public class ConsoleApp {
     public static Scanner scanner;
 
-    public Main() {
+    public ConsoleApp() {
         scanner = new Scanner(System.in);
         requestStartTime();
         requestEndTime();
@@ -24,6 +24,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        new Main();
+        new ConsoleApp();
     }
 }
