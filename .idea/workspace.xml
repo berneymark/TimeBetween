@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05fb2ee1-07c0-4945-ae1d-aa8a55fbf28a" name="Changes" comment="remove default comments">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="05fb2ee1-07c0-4945-ae1d-aa8a55fbf28a" name="Changes" comment="change string funct to void funct" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +82,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689037172198</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactor basic code">
+      <option name="closed" value="true" />
+      <created>1689037713098</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689037713098</updated>
+    </task>
+    <task id="LOCAL-00006" summary="change string funct to void funct">
+      <option name="closed" value="true" />
+      <created>1689037757550</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689037757550</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +117,8 @@
     <MESSAGE value="reset workspace" />
     <MESSAGE value="request and store start time" />
     <MESSAGE value="remove default comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove default comments" />
+    <MESSAGE value="refactor basic code" />
+    <MESSAGE value="change string funct to void funct" />
+    <option name="LAST_COMMIT_MESSAGE" value="change string funct to void funct" />
   </component>
 </project>
