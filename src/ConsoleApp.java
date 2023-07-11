@@ -1,42 +1,50 @@
 import java.util.Scanner;
 
 public class ConsoleApp {
-    public static Scanner scanner;
+    private static Scanner scanner;
 
-    public Boolean is24;
+    private Boolean is24;
+    private int startTime;
+    private int endTime;
+    private int timeBetween;
 
-    public ConsoleApp() {
+    private ConsoleApp() {
         scanner = new Scanner(System.in);
         requestClockType();
         requestStartTime();
         requestEndTime();
+
+        timeBetween = calcTimeBetween(startTime, endTime);
+        System.out.println(timeBetween);
     }
 
-    public void requestClockType() {
+    private void requestClockType() {
         System.out.print("Do you want 12H or 24H? ");
         String clockType = scanner.nextLine();
 
         is24 = is24H(clockType);
     }
 
-    public boolean is24H(String input) {
+    private boolean is24H(String input) {
         if (input.equals("12H"))
             return false;
         else return input.equals("24H");
     }
 
-    public void requestStartTime() {
+    private void requestStartTime() {
         System.out.print("What time did you start work? ");
-        String startTime = scanner.nextLine();
-
-        System.out.println("Start time is: " + startTime);
+        String stTime = scanner.nextLine();
+        startTime = Integer.parseInt(stTime);
     }
 
-    public void requestEndTime() {
+    private void requestEndTime() {
         System.out.print("What time did you end work? ");
-        String endTime = scanner.nextLine();
+        String edTime = scanner.nextLine();
+        endTime = Integer.parseInt(edTime);
+    }
 
-        System.out.println("End time is: " + endTime);
+    private int calcTimeBetween(int start, int end) {
+        return end - start;
     }
 
     public static void main(String[] args) {
