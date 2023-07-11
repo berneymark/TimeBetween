@@ -36,7 +36,7 @@ public class ConsoleApp {
         System.out.print("What time did you end work? ");
         String endTime = scanner.nextLine();
 
-        System.out.println("Start time is: " + endTime);
+        System.out.println("End time is: " + endTime);
     }
 
     public static void main(String[] args) {
