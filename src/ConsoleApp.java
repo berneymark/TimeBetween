@@ -4,6 +4,7 @@ public class ConsoleApp {
     private static Scanner scanner;
 
     private int startTime;
+    private int startHour, startMin;
     private int endTime;
     private int timeBetween;
 
@@ -28,6 +29,20 @@ public class ConsoleApp {
         System.out.print("What time did you end work? ");
         String edTime = scanner.nextLine();
         endTime = Integer.parseInt(edTime);
+    }
+
+    private String[] spliceTime(String input) {
+        return input.split(":", 2);
+    }
+    
+    private int[] timeToInt(String[] input) {
+        int[] time = new int[1];
+
+        for (int i = 0; i < input.length; i++) {
+            time[i] = Integer.parseInt(input[i]);
+        }
+
+        return time;
     }
 
     private int calcTimeBetween(int start, int end) {

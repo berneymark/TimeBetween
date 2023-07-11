@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05fb2ee1-07c0-4945-ae1d-aa8a55fbf28a" name="Changes" comment="calc time between">
+    <list default="true" id="05fb2ee1-07c0-4945-ae1d-aa8a55fbf28a" name="Changes" comment="restrict to 24H">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsoleApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689069626329</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="restrict to 24H">
+      <option name="closed" value="true" />
+      <created>1689069786829</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689069786829</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +183,7 @@
     <MESSAGE value="added 12H or 24H option" />
     <MESSAGE value="fixed &quot;End time is: &quot; prev was &quot;Start time is: &quot;" />
     <MESSAGE value="calc time between" />
-    <option name="LAST_COMMIT_MESSAGE" value="calc time between" />
+    <MESSAGE value="restrict to 24H" />
+    <option name="LAST_COMMIT_MESSAGE" value="restrict to 24H" />
   </component>
 </project>
